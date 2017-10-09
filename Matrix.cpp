@@ -4,8 +4,16 @@
 int main()
 {
 int i,j,k;
-int a[N][N], b[N][N], c[N][N];
+int **a,**b,**c;
+  a = new int*[N];
+  b= new int*[N];
+  c= new int*[N];
 
+  for(int r=0; r<N; r++)
+  {a[r] = new int[N];
+   b[r]] = new int[N];
+   c[r]] = new int[N];}
+  
   for (i=0; i<N; i++)
     for (j=0; j<N; j++)
       a[i][j]=b[i][j]=i*j;
