@@ -43,8 +43,12 @@ void push_back (int element)
 		}
 		
 		delete [] temp;
+		capacity++;
 		
 	}
+}
+	
+int at (int i) {return pointer[i];}
 					  
 	
 	
