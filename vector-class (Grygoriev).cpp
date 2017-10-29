@@ -33,8 +33,19 @@ void push_back (int element)
 		
 	        temp[size - 1] = element;
 		
-		delete
+		delete [] pointer;
 		
+		pointer = new int[size];
+		
+		for(int i = 0; i<size; i++)
+		{
+			 pointer[i] = temp[i];
+		}
+		
+		delete [] temp;
+		
+	}
+					  
 	
 	
 ~vector();
