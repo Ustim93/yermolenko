@@ -20,11 +20,20 @@ int size
 	
 void push_back (int element)
 {
-	++size;
+	size++;
 	if(size <= capacity)
 		pointer[size - 1] = element;
 	if(size > capacity)
 	{
+		int *temp = new int[size];
+		for(int i = 0; i<(size - 1); i++)
+		{
+			temp[i] = pointer[i];
+		}
+		
+	        temp[size - 1] = element;
+		
+		delete
 		
 	
 	
