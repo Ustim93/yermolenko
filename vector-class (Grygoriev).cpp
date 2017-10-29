@@ -14,5 +14,19 @@ vector(int capacity)
 	this ->capacity = capacity;
 	tsis ->size = 0;
 }
+
+int size
+{return size;}
+	
+void push_back (int element)
+{
+	++size;
+	if(size <= capacity)
+		pointer[size - 1] = element;
+	if(size > capacity)
+	{
+		
+	
+	
 ~vector();
 void s
