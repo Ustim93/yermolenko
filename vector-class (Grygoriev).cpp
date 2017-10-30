@@ -6,7 +6,7 @@ class vector
 private:
 int *pointer; //вказівник на масив, що міститься в стеку
 int size;//розмір (к-сть елементів) стеку
-int capacity; //
+int capacity; //сколько элементов мы можем хранить в выделенной памяти на куче.
 public:
 vector(int capacity) 
 {
@@ -52,5 +52,5 @@ int at (int i) {return pointer[i];}
 					  
 	
 	
-~vector();
-void s
+~vector() {delete [] pointer;}
+}
