@@ -57,7 +57,7 @@ public:
 
 
 	~vector() { delete[] pointer; }
-}
+};
 
 int main()
 {
