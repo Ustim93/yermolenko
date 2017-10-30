@@ -12,14 +12,14 @@ private:
 	int size;//розмір (к-сть елементів) стеку
 	int capacity; //сколько элементов мы можем хранить в выделенной памяти на куче.
 public:
-	vector(int capacity)
+	Vector(int capacity)
 	{
 		pointer = new int[capacity];
 		this->capacity = capacity;
-		tsis->size = 0;
+		this->size = 0;
 	}
 
-	int size
+	int size(void)
 	{ return size; }
 
 		void push_back(int element)
@@ -67,7 +67,7 @@ int main()
 
 	cout << object.size << endl;
 
-	for (int j = 1; j = 5; j++) cout<<object(j-1);
+	for (int j = 1; j = 5; j++) cout<<object.at(j-1);
 
     return 0;
 }
