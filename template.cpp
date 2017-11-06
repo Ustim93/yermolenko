@@ -25,22 +25,24 @@ for(j = 0; j<i; j++){
 	for(l=k; l<i;l++){
 		if(a[l]>b[j] && c[l] == 1){
 			b[j] = a[l];
-			ind = l;
-}
-}
+			ind = l; }
+			  }
 	
-	c[ind] = 0;
+		c[ind] = 0;
 }
 		
-			
+	for(j = 0; j<i; j++) a[j]=b[j];		
 	
+	for(j = 0; j<i; j++) cout<<a[j]<<" ";
 	
+	cout<<endl;
+}
   
 
 
 int main()
 {
-
+int a[] = {3,1,7,-10,256};
 	
     return 0;
 }
