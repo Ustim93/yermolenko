@@ -42,7 +42,17 @@ for(j = 0; j<i; j++){
 
 int main()
 {
-int a[] = {3,1,7,-10,256};
+int i[] = {3,1,7,-10,256};
+sort(i,5);
+	
+double d[] = {3.0, 2057.12537, -5685.5678, 0.0, 297.754};
+sort(d,5);
+	
+char t[] = "Grygoriev";
+sort(t,9);
+	
+bool b[] = {1,0,1,1,0}
+sort(b,9);
 	
     return 0;
 }
