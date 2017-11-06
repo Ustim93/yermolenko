@@ -6,6 +6,7 @@ using namespace std;
 struct MyStruct{
     char name[255];
     int mark;
+    bool status;
 };
  
  
@@ -20,11 +21,10 @@ int main()
   v.push_back(Student); //Поместили одну структуру. По логике нужно ее сейчас и заполнить, но я пониже заполню
   
  
-  v.at(0).Age=16; //Записали данне в одну структуру
-  strcpy(v.at(0).Fam,"Grygoriev");
- 
-  v.at(1).Age=32; //Записали данные в другую структуру
-  strcpy(v.at(1).Fam,"Смирнов");
+  v.at(0).mark=9; //Записали данне в одну структуру
+  v.at(0).name="Grygoriev";
+  v.at(0).status=1;
+  
  
 //Вывели элементы вектора на экран. Там сейчас два объекта.
  for (vector<MyStruct>::iterator it=v.begin();it!=v.end();it++){
