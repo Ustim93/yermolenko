@@ -25,7 +25,10 @@ int main()
   v.at(0).name="Grygoriev";
   v.at(0).status=1;
   
- 
+ for(int i=1; i<=7; i++){
+      v.push_back(Student);
+      cin>>
+  
 //Вывели элементы вектора на экран. Там сейчас два объекта.
  for (vector<MyStruct>::iterator it=v.begin();it!=v.end();it++){
     cout<<it->Fam<<"  "<<it->Age<<"  лет\n";
