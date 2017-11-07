@@ -19,10 +19,14 @@ public:
 		this->size = 0;
 	}
 
-	int size(void)
-	{ return size; }
+	~Vector() { delete[] pointer; }
 
-		void push_back(int element)
+	int t_size(void)
+	{
+		return size;
+	}
+
+	void push_back(int element)
 	{
 		size++;
 		if (size <= capacity)
@@ -56,7 +60,7 @@ public:
 
 
 
-	~vector() { delete[] pointer; }
+	
 };
 
 int main()
@@ -65,10 +69,9 @@ int main()
 
 	for (int j = 1; j = 5; j++) object.push_back(2 * j);
 
-	cout << object.size << endl;
+	cout << object.t_size() << endl;
 
-	for (int j = 1; j = 5; j++) cout<<object.at(j-1);
+	for (int j = 1; j = 5; j++) cout << object.at(j - 1);
 
-    return 0;
+	return 0;
 }
-
