@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>
+
  
 using namespace std;
  
@@ -9,21 +9,42 @@ struct MyStruct{
     bool status;
 };
  
+void print(const f obj[], intn)
+{
+ 
  
 int main()
 {
     
+ int n = 9;
+  
+  MyStruct student[n]={};
  
-     vector <MyStruct> v;  //Вектор v содержит структуры типа MyStruct
-  MyStruct Student; //Чтобы поместить в структуру объект, объект должен существовать
- 
- 
-  v.push_back(Student); //Поместили одну структуру. По логике нужно ее сейчас и заполнить, но я пониже заполню
+ for(int i=0;i<n;i++)
+ {
+    cout<<"\n Name\t";
+    cin>>student.name;
+  
+  
+    cout<<"\n Mark\t";
+    cin>>student.mark;
+  
+  
+    cout<<"\n Status\t";
+    cin>>student.status;
+ }
+  
+  
+  
   
  
-  v.at(0).mark=9; //Записали данне в одну структуру
-  v.at(0).name="Grygoriev";
-  v.at(0).status=1;
+  
+  
+ 
+ 
+ 
+ 
+  
   
  for(int i=1; i<=7; i++){
       v.push_back(Student);
