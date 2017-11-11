@@ -9,9 +9,12 @@ struct MyStruct{
     bool status;
 };
  
-void print(const f obj[], intn)
+void print(const f obj[], int n)
 {
  
+   fot(int j = 0; j<n; j++)
+   cout<<"Name:\t"<<obj[j].name<<"\t Mark: \t"<<obj[j].mark<<"\t Status \t"<<obj[j].status<<endl;
+} 
  
 int main()
 {
@@ -22,15 +25,15 @@ int main()
  
  for(int i=0;i<n;i++)
  {
-    cout<<"\n Name\t";
+    cout<<"\n Name:\t";
     cin>>student.name;
   
   
-    cout<<"\n Mark\t";
+    cout<<"\n Mark:\t";
     cin>>student.mark;
   
   
-    cout<<"\n Status\t";
+    cout<<"\n Status:\t";
     cin>>student.status;
  }
   
