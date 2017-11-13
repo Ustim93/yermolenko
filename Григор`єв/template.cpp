@@ -53,8 +53,7 @@ int main()
 	char t[] = "Grygoriev";
 	sort(t, 9);
 
-	bool b[] = { 1,0,1,1,0 };
-	sort(b, 9);
+	
 
 	return 0;
 }
