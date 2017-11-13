@@ -68,6 +68,8 @@ int main()
 	Vector object(10);
 
 	for (int j = 1; j = 5; j++) object.push_back(2 * j);
+	
+	cout<<"abrakadabra";
 
 	cout << object.t_size() << endl;
 
