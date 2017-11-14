@@ -23,6 +23,7 @@ int main ()
   num.swap(num2);
   
   if(num.empty()) cout << "Sorry, there is some problem!"<<endl;
+  else cout <<"You have"<<num.size<<"from each quene"<<endl;
   
   while(!num.empty())
     
