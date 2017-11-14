@@ -8,7 +8,7 @@ int main ()
   queue<int> num;
   queue<int> num2;
   
-  int a,b;
+  int a;
   
   cin >> a;
   
@@ -43,5 +43,16 @@ int main ()
   }
     
      
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+  
   return 0;
 }
