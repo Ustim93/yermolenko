@@ -30,7 +30,7 @@ int main ()
     
   {
     cout <<num.front() <<"   ";
-    num.pop();
+    num2.pop();
   }
    
   cout<<endl;
