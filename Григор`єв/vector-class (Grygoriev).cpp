@@ -69,11 +69,11 @@ int main()
 
 	for (int j = 1; j <= 5; j++) object.push_back(2 * j);
 	
-	cout<<"abrakadabra";
+	
 
 	cout << object.t_size() << endl;
 
-	for (int j = 1; j = 5; j++) cout << object.at(j - 1)<<"  ";
+	for (int j = 1; j <= 15; j++) cout << object.at(j - 1)<<"  ";
 
 	return 0;
 }
