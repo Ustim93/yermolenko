@@ -73,7 +73,7 @@ int main()
 
 	cout << object.t_size() << endl;
 
-	for (int j = 1; j = 5; j++) cout << object.at(j - 1);
+	for (int j = 1; j = 5; j++) cout << object.at(j - 1)<<"  ";
 
 	return 0;
 }
