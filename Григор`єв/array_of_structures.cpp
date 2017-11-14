@@ -14,7 +14,7 @@ using namespace std;
 struct MyStruct {
 	char name[255];
 	int mark;
-	bool status;
+	int status;
 };
 
 void print(const MyStruct obj[], int n)
